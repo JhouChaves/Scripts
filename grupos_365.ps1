@@ -28,4 +28,4 @@ foreach ($group in $groups) {
 }
 
 # Exportar os resultados para um arquivo CSV
-$results | Export-Csv -Path "C:\Users\Jhonathan\Desktop\LBGS-Grupos\grupos.csv" -NoTypeInformation
+$results | Export-Csv -Path "UNIDADE:CAMINHODOARQUIVO\grupos.csv" -NoTypeInformation
